@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    // + 匹配前面的字符至少出现一次或者多次
+    if(/roun+b/.test("rounbb")){
+        console.log("+++")
+    }
+    // *号匹配0次一次或者多次
+    if(/roun*b/.test("rounbbbbb")){
+        console.log("*****")
+
+    }
+    // ？匹配0次或者一次
+    if(/rount?g/.test("rounttg")){
+        console.log("?????")
+    }
+    
+
+    /*
+    1. [sad] 匹配[] 出现的所有字符
+    2. [^sad] 匹配除了[]中的所有字符
+    3. [a-z][A=Z]匹配a-z之间的任意字符
+    4. 匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行。
+    5. 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] 
+    */
+
+</script>
